@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{ccf9bbc7-98fe-4e7c-b691-1c57eedd41be}">
+		<property name="assetPath">
+			<value>player/wood/player_step_stairs_2.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.51922902494331069</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7bfd23be-a057-4b38-8fbb-2b88a576d0db}</destination>
+		</relationship>
+	</object>
+</objects>
