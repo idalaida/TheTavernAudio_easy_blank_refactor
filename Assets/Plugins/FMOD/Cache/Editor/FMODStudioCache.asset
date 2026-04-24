@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: ../../../Desktop/tavern/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639114143829304573
+  lastModified: 639126258262582737
   FileSizes:
   - Name: Desktop
-    Value: 2996896
+    Value: 2999360
   Exists: 1
 --- !u!114 &-5874691417651077609
 MonoBehaviour:
@@ -75,6 +75,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 77538
+--- !u!114 &-4856447075711217123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb/amb-music-3d
+  m_EditorClassIdentifier: 
+  Path: event:/amb/amb-music-3d
+  Guid:
+    Data1: -1982471109
+    Data2: 1169817994
+    Data3: -678587510
+    Data4: 1436439239
+  Banks:
+  - {fileID: -8879896073350350802}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-2290858870441269110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,13 +152,15 @@ MonoBehaviour:
   - {fileID: 3986842586240572068}
   - {fileID: -5874691417651077609}
   - {fileID: 4750804469845572614}
+  - {fileID: -4856447075711217123}
+  - {fileID: 4618305426576019148}
   EditorParameters: []
   MasterBanks:
   - {fileID: -8879896073350350802}
   StringsBanks:
   - {fileID: 8088901553714025277}
   cacheVersion: 131859
-  cacheTime: 639114143829314620
+  cacheTime: 639126258262587911
   SerializableEventsDict:
   - key: event:/amb/amb-fire
     index: 0
@@ -147,6 +176,10 @@ MonoBehaviour:
     index: 5
   - key: event:/int/int-door
     index: 6
+  - key: event:/amb/amb-music-3d
+    index: 7
+  - key: snapshot:/outside
+    index: 8
 --- !u!114 &1312027777942861060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201,6 +234,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1760
+--- !u!114 &4618305426576019148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/outside
+  m_EditorClassIdentifier: 
+  Path: snapshot:/outside
+  Guid:
+    Data1: -1966689852
+    Data2: 1293314805
+    Data3: 402476190
+    Data4: 874122510
+  Banks:
+  - {fileID: -8879896073350350802}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &4750804469845572614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -270,10 +330,10 @@ MonoBehaviour:
   Path: ../../../Desktop/tavern/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639114143829314620
+  lastModified: 639126258262587911
   FileSizes:
   - Name: Desktop
-    Value: 1116
+    Value: 1284
   Exists: 1
 --- !u!114 &8288241175869992527
 MonoBehaviour:
