@@ -4227,11 +4227,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 806464880
-      Data2: 1172017853
-      Data3: -1872803678
-      Data4: -1458359052
-    Path: event:/amb/amb-forest
+      Data1: -1144754533
+      Data2: 1099201399
+      Data3: 13325484
+      Data4: -935001706
+    Path: event:/amb/amb_forest_3d
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 0
@@ -4240,9 +4240,9 @@ MonoBehaviour:
   Preload: 0
   NonRigidbodyVelocity: 0
   Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideAttenuation: 1
+  OverrideMinDistance: 11.9
+  OverrideMaxDistance: 93.77
 --- !u!135 &1471675730
 SphereCollider:
   m_ObjectHideFlags: 0
