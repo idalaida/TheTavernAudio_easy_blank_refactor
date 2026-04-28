@@ -143,18 +143,20 @@ public class Footsteps : MonoBehaviour
         switch (surfaceTag)
         {
             case "Stone":
-                surfaceParameter = "Stone";
+                surfaceParameter = "stone";
                 break;
             case "Inside_stone":
+                surfaceParameter = "stone";
+                break;
             case "Outside": // "Outside" również używa parametru "Stone"
-                surfaceParameter = "Stone";
+                surfaceParameter = "stone";
                 break;
             
             case "Wood":
-                surfaceParameter = "Wood";
+                surfaceParameter = "wood";
                 break;
             case "Inside_wood":
-                surfaceParameter = "Wood";
+                surfaceParameter = "wood";
                 break;
 
             case "Bed":

@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: ../../../Desktop/tavern/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639126258262582737
+  lastModified: 639129774283575915
   FileSizes:
   - Name: Desktop
-    Value: 2999360
+    Value: 3198464
   Exists: 1
 --- !u!114 &-5874691417651077609
 MonoBehaviour:
@@ -48,6 +48,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 465
+--- !u!114 &-5319459991690096170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb/amb_fire_3d
+  m_EditorClassIdentifier: 
+  Path: event:/amb/amb_fire_3d
+  Guid:
+    Data1: 1368125941
+    Data2: 1143088877
+    Data3: -1713366635
+    Data4: -784213744
+  Banks:
+  - {fileID: -8879896073350350802}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10859
 --- !u!114 &-5305146998827635734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75,33 +102,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 77538
---- !u!114 &-4856447075711217123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/amb/amb-music-3d
-  m_EditorClassIdentifier: 
-  Path: event:/amb/amb-music-3d
-  Guid:
-    Data1: -1982471109
-    Data2: 1169817994
-    Data3: -678587510
-    Data4: 1436439239
-  Banks:
-  - {fileID: -8879896073350350802}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &-2290858870441269110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,6 +129,87 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 95800
+--- !u!114 &-1939034171197675784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb/amb_forest_3d
+  m_EditorClassIdentifier: 
+  Path: event:/amb/amb_forest_3d
+  Guid:
+    Data1: -1144754533
+    Data2: 1099201399
+    Data3: 13325484
+    Data4: -935001706
+  Banks:
+  - {fileID: -8879896073350350802}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 76000
+--- !u!114 &-1849235347675790871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb/amb-music-3d
+  m_EditorClassIdentifier: 
+  Path: event:/amb/amb-music-3d
+  Guid:
+    Data1: -704797023
+    Data2: 1296913873
+    Data3: 1288847785
+    Data4: -798356234
+  Banks:
+  - {fileID: -8879896073350350802}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 77538
+--- !u!114 &-1211053738082675553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/player_jump/Footsteps_surface
+  m_EditorClassIdentifier: 
+  Name: Footsteps_surface
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 675389275
+    data2: 4042361622
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - stone
+  - wood
+  - stairs
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,15 +233,21 @@ MonoBehaviour:
   - {fileID: 3986842586240572068}
   - {fileID: -5874691417651077609}
   - {fileID: 4750804469845572614}
-  - {fileID: -4856447075711217123}
   - {fileID: 4618305426576019148}
+  - {fileID: 218740883341251159}
+  - {fileID: -1849235347675790871}
+  - {fileID: 736216940319091399}
+  - {fileID: 4401457196057430509}
+  - {fileID: -5319459991690096170}
+  - {fileID: 3833780258050840507}
+  - {fileID: -1939034171197675784}
   EditorParameters: []
   MasterBanks:
   - {fileID: -8879896073350350802}
   StringsBanks:
   - {fileID: 8088901553714025277}
   cacheVersion: 131859
-  cacheTime: 639126258262587911
+  cacheTime: 639129774283591099
   SerializableEventsDict:
   - key: event:/amb/amb-fire
     index: 0
@@ -176,10 +263,77 @@ MonoBehaviour:
     index: 5
   - key: event:/int/int-door
     index: 6
-  - key: event:/amb/amb-music-3d
+  - key: snapshot:/Outside
     index: 7
-  - key: snapshot:/outside
+  - key: event:/amb/amb-crowd-3d
     index: 8
+  - key: event:/amb/amb-music-3d
+    index: 9
+  - key: event:/player/player_jump
+    index: 10
+  - key: event:/player/player_jump_off
+    index: 11
+  - key: event:/amb/amb_fire_3d
+    index: 12
+  - key: snapshot:/Inside
+    index: 13
+  - key: event:/amb/amb_forest_3d
+    index: 14
+--- !u!114 &218740883341251159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb/amb-crowd-3d
+  m_EditorClassIdentifier: 
+  Path: event:/amb/amb-crowd-3d
+  Guid:
+    Data1: -1982471109
+    Data2: 1169817994
+    Data3: -678587510
+    Data4: 1436439239
+  Banks:
+  - {fileID: -8879896073350350802}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &736216940319091399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/player/player_jump
+  m_EditorClassIdentifier: 
+  Path: event:/player/player_jump
+  Guid:
+    Data1: 832494913
+    Data2: 1273023150
+    Data3: 2089119673
+    Data4: 1377472436
+  Banks:
+  - {fileID: -8879896073350350802}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -1211053738082675553}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 561
 --- !u!114 &1312027777942861060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -207,6 +361,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 10859
+--- !u!114 &3833780258050840507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Inside
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Inside
+  Guid:
+    Data1: 2145370885
+    Data2: 1248608132
+    Data3: 1865385891
+    Data4: -911156861
+  Banks:
+  - {fileID: -8879896073350350802}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &3986842586240572068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,7 +414,34 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1760
+  Length: 1300
+--- !u!114 &4401457196057430509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/player/player_jump_off
+  m_EditorClassIdentifier: 
+  Path: event:/player/player_jump_off
+  Guid:
+    Data1: -259509077
+    Data2: 1291579974
+    Data3: 1645225132
+    Data4: -313624700
+  Banks:
+  - {fileID: -8879896073350350802}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 528
 --- !u!114 &4618305426576019148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,9 +452,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/outside
+  m_Name: snapshot:/Outside
   m_EditorClassIdentifier: 
-  Path: snapshot:/outside
+  Path: snapshot:/Outside
   Guid:
     Data1: -1966689852
     Data2: 1293314805
@@ -298,9 +506,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/player-footsteps/Parameter 1
+  m_Name: parameter:/player-footsteps/Footsteps_surface
   m_EditorClassIdentifier: 
-  Name: Parameter 1
+  Name: Footsteps_surface
   StudioPath: 
   Min: 0
   Max: 2
@@ -330,10 +538,10 @@ MonoBehaviour:
   Path: ../../../Desktop/tavern/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639126258262587911
+  lastModified: 639129774283591099
   FileSizes:
   - Name: Desktop
-    Value: 1284
+    Value: 1620
   Exists: 1
 --- !u!114 &8288241175869992527
 MonoBehaviour:

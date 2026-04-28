@@ -68,7 +68,8 @@ public class Outside_foot_switch : MonoBehaviour
             // Zatrzymuje i zwalnia instancję snapshotu, jeśli jest prawidłowa.
             if (outsideSnapshotInstance.isValid())
             {
-                outsideSnapshotInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+                //outsideSnapshotInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT); 
+                outsideSnapshotInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
                 outsideSnapshotInstance.release();
             }
         }
